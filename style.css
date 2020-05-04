@@ -6,6 +6,7 @@ body {
   );
   font-size: 1.15em;
   text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #title {
@@ -31,5 +32,8 @@ body {
 .italics {
   font-style: italic;
 }
-/* Font properties */
-/* Font(size-size of text, weight-bolidng of text/font and style-italisizing), Bolding and Style */
+/* Font Family-collection of fonts that has similar features */
+/* Main 3 font families 
+Serif(times numeral and georgia fonts)-acedimics, essays, journals pretty much papers handed out. not as legible on computer
+San-Serif(arial and calibri fonts)-better for for computers a lot cleaner, facebook, google, etc uses it.  
+monospace(courier new font) */

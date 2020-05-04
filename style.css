@@ -1,5 +1,7 @@
+/* background property is great and not just background-color
+bc you can set the background as a color, image and other things with it */
 body {
-  background: rgb(188, 143, 143);
+  background: url('img/img-1.jpg');
 }
 
 #title {

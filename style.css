@@ -4,12 +4,13 @@ body {
     rgb(188, 143, 143),
     rgba(188, 143, 143, 0.25)
   );
-  text-transform: capitalize;
-  text-align: center;
+  font-size: 1.15em;
+  text-align: justify;
 }
 
 #title {
   color: rgb(186, 133, 9);
+  font-weight: 400;
 }
 
 .subtitle {
@@ -27,9 +28,8 @@ body {
   text-decoration: none;
 }
 
-/* Text Manipulation */
-/* Text manipulation- styling which doesn't rely on font. Cam change no matter font
-text-decoration=lining of the text(undlerline, overline, thru or none)
-text-transform-example would be capalizing, lowercase, and uppercase all of the text at the same time
-text-align focuses on justification(sets the all the lines to the same length ex: research papers, essays, etc ) and alignment of text. (left, right, center and justified)
- */
+.italics {
+  font-style: italic;
+}
+/* Font properties */
+/* Font(size-size of text, weight-bolidng of text/font and style-italisizing), Bolding and Style */

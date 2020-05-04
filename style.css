@@ -4,7 +4,7 @@ body {
     rgb(188, 143, 143),
     rgba(188, 143, 143, 0.25)
   );
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #title {
@@ -17,7 +17,7 @@ body {
 
 #service-image {
   height: 400px;
-  width: 70%;
+  width: 70vw;
 
   background: radial-gradient(circle, red 20%, blue 30%, green 50%);
 }

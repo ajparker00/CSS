@@ -6,7 +6,11 @@ bc you can set the background as a color, image and other things with it */
 0 cant see it at all and 1 fully visible */
 
 body {
-  background: rgba(188, 143, 143, 0.25);
+  background: linear-gradient(
+    to bottom,
+    rgb(188, 143, 143),
+    rgba(188, 143, 143, 0.25)
+  );
 }
 
 #title {
@@ -21,14 +25,29 @@ body {
 
 /* Background repeat and size to fill whole div container */
 /* cover covers the whole div but sacrifices quality bc it stretches the picture */
+
+/* Gradient which is a transition btwn 2 or more colors most common is 2
+(Two types of Gradients Radial are circular-defined by their center and 
+Linear directions-goes up, down, left righ and diagonally also use degrees)*/
+
+/* #service-image {
+  height: 400px;
+  width: 70%;
+
+  /* linear gradients need direction, rgb and rgba*/
+/* background: linear-gradient(
+    to top right,
+    rgb(36, 122, 126),
+    rgba(36, 122, 126, 0.25) */
+/* );
+  background-size: cover;
+}  */
+
+/* Radial gradients defineds or each portion of the color you want
+  cannot specify background size like color with radial*/
 #service-image {
   height: 400px;
   width: 70%;
 
-  background: url(img/img-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: steelblue;
+  background: radial-gradient(circle, red 20%, blue 30%, green 50%);
 }
-
-/* Opacity its the a in rgba */

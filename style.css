@@ -1,7 +1,7 @@
 /* background property is great and not just background-color
 bc you can set the background as a color, image and other things with it */
 body {
-  background: url('img/img-1.jpg');
+  background: rgb(188, 143, 143);
 }
 
 #title {
@@ -10,4 +10,18 @@ body {
 
 .subtitle {
   color: rgb(200, 145, 30);
+}
+
+/* other background properties background size and repeat */
+
+/* Background repeat and size to fill whole div container */
+/* cover covers the whole div but sacrifices quality bc it stretches the picture */
+#service-image {
+  height: 400px;
+  width: 70%;
+
+  background: url(img/img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: steelblue;
 }

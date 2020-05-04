@@ -1,60 +1,7 @@
-/* Psuedo Selctor when : is used */
-h2:hover {
-  color: red;
+#title {
+  color: rgb(186, 133, 9);
 }
 
 .subtitle {
-  color: blue;
-}
-
-#services {
-  color: green;
-}
-
-/* li:only-child {
-  color: purple;
-} */
-
-li:nth-child(2) {
-  color: red;
-}
-
-/* #google-link:link {
-  color: aquamarine;
-}
-
-#google-link:visited {
-  color: red;
-} */
-
-/* Advanced Selectors- basic and attributes selectors */
-/* Basic advance selectors-most used */
-/* adjacent sibling selector */
-h2 + a {
-  color: blueviolet;
-}
-
-/* General Sibling Selector have to share the same parent*/
-textarea ~ button {
-  color: blue;
-}
-
-/* Child Selector only effects direct children not as specific as Pseudo that why middle is red */
-ul > li {
-  color: cyan;
-}
-
-/* decedent selector selects children and their off springs ol etc */
-/* ul li {
-  color: green;
-} */
-
-/* Attribute Selectors */
-/* h2[class='subtitle'] {
-  color: brown;
-} */
-
-/* Selecting multiple attributes */
-img[src^='../img/'] {
-  border: 5px solid black;
+  color: rgb(219, 168, 50);
 }

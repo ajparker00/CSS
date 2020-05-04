@@ -4,7 +4,8 @@ body {
     rgb(188, 143, 143),
     rgba(188, 143, 143, 0.25)
   );
-  font-size: 1em;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 #title {
@@ -22,19 +23,13 @@ body {
   background: radial-gradient(circle, red 20%, blue 30%, green 50%);
 }
 
-/* Units abosolute and reletive units-mostly used pixels and percentages.  
-Relative units is the safest best for multiple devices.  
-Pixels if they are using one device bc can look different depending on the device they are using
-/* absolute units are mm, cm and inches not dependent on anything else
-1 inch is 1 inch.  Best to use px for an absolute value
-Absolute is not good for responsive design unless you use px which is design to adjust per device.  
-absolute values except for px can be small on tv but too big on phone*/
+.link {
+  text-decoration: none;
+}
 
-/* Relative units are usually dependent on something-Really good for responsive deign. 
-adjusts with page, parent element etc.  % and em are the most commot relative units
-however another 2 is veiw with and view height.
- ex would be like a %unit wil be dependent on parent element size of value
-em represents the size reletive to the current standard font size.  Ex 2em makes text double in font-size
-veiw width(vw) and veiw height(vh) deals with the veiw port which the dimensions on whatever you are viewing the site on
-body's width and body's height.  1vw and 1 vh is 1% of the body's weight or height.  Can go over 100% of viewport
+/* Text Manipulation */
+/* Text manipulation- styling which doesn't rely on font. Cam change no matter font
+text-decoration=lining of the text(undlerline, overline, thru or none)
+text-transform-example would be capalizing, lowercase, and uppercase all of the text at the same time
+text-align focuses on justification(sets the all the lines to the same length ex: research papers, essays, etc ) and alignment of text. (left, right, center and justified)
  */

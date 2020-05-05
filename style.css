@@ -40,7 +40,7 @@ body {
 }
 
 /*  Box Model */
-/* Changing Content Size-shape and styling 
+/* Changing Content Size-shape and styling-dont have to use absolute value on content
 2 main futures when shaping content is heigh and which we used on svc img
 height is best with absolute units like px bc height stay consistent on each device.
  However width changes dramatically so use relative units like vw or percentage */

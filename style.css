@@ -38,10 +38,58 @@ body {
 #about-us-image {
   height: 300px;
   width: 60%;
+
   border: 5px solid rgb(44, 54, 114);
   padding: 5px 10px 5px 10px;
   margin: 5px 10px;
+
+  float: right;
 }
 
-/*  Box Model */
-/* Maragin and Padding */
+.site-table {
+  display: inline-block;
+}
+
+/* Floats and Display types */
+/* 
+We are going to change the display type of these fifferent elements
+Elements have a certain Display type which we will be manipulating
+
+Inline element doesn't really move anything to it's own section like block, it keeps entact. 
+It's not going to move it or change it any way it will stay how it will naturally look on the page.
+Flows with everything- ex would be a span tag if span was a block level elemnt like italicizing words,
+it would be moved on to it's own section like a p tag
+Inline does not move anything onto it's own line.  Stays in there own place.  They don't touch anything or
+move anything around
+
+inline ex:<p>Wecolme <span>to</span> JS!</p>
+block ex: <p>Welcome to JS</p>
+          <p>Doing a great job</p>
+
+Block level elements moves everything onto it's own section/block-ex: P tags 
+Block level moves everything onto their own line
+
+*/
+
+/* Floats-changes the way an inline and block level tags look on a page
+  floats change how the element change or floats on the page
+  floats is like playing tetris. Say you move image to the right, everything else will be moved up or move around to fit the page.
+  floats are really useful for laying out documents especially if you want position images next to text or
+  move things around to make things look like a proper document.
+  */
+
+/* Display-changing properties
+  Display is a way to change the display property of an element that it naturally comes with.
+  Block level is div and p tag
+  
+  inline tag is span and strong tag
+  
+  display none-almost remove the element from the page.  It doesn't but it more like makes the invisible box  from the page to be gone
+  display none is used to hide things in JS after something is completed
+  
+  inline block-combines features from inline and block display and combine them together
+  It keeps everything on it own line but creates block level spacing around the element
+ inline block is very useful to layout grids on a websites
+
+ Flex and Grid are display properties
+  */

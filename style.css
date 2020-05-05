@@ -33,4 +33,14 @@ body {
 .italics {
   font-style: italic;
 }
-/* Google Fonts */
+
+#about-us-image {
+  height: 300px;
+  width: 60%;
+}
+
+/*  Box Model */
+/* Changing Content Size-shape and styling 
+2 main futures when shaping content is heigh and which we used on svc img
+height is best with absolute units like px bc height stay consistent on each device.
+ However width changes dramatically so use relative units like vw or percentage */

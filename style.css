@@ -52,10 +52,11 @@ body {
 
 /* Flexbox */
 
-/* Container Properties */
-/*  These 5 are properties we can actuallu use for the contianer-all these things done in the container. 
-Display flex(to start flex set up), flex-direction (row and colums), flex-wrap(wrap items)
-justify-content(horizontally) and align items(vertically) */
+/* flex item orders */
+/* Item Properties is the real power of flex box basically changing how items look.  Ex would be positioning in a container. */
+/* Flex item order instead of adding this to the actual container you can add this to the items themselves.
+  Use property to change the position or order of the flex items
+*/
 
 .container {
   background-color: rgb(250, 250, 250);

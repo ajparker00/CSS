@@ -51,23 +51,11 @@ body {
 }
 
 /* Flexbox */
-/* Content Alignment
-  2 important properties that can be used to justify and align flex items
-  items inside of a countainer.  One is going to be responsible for the horizontal 
-  aglignment (justify-content) and one for the vertical alignemnt (align-items)
-  Each of this properties share 3 main values between the 2 of them and each of them
-  have 2 special values that actually can align them item in a different special way.
 
-  (1)justify-content- aligns items horizontally. flex-start(is where the container starts horizonally), flex-end and center
-  2 special values are space around (items more center) and space between (items more stretched touching the container).
-  Messes with the spacing between
-  or around the items.
-
-  (2)Align-itemes-aligns items verically. By default items are set to align vertically stretch with the parent container.
-  flex-start(is where the container starts vertically-top to bottom), flex-end(aligns items bottom up) and 
-  center(takes away the stretch and alingns the items to the center of the container)
-  2 specail values are baseline (all items no matter their size is aligned to a baseline ) and stretch(default value for items in container vertically)
-  */
+/* Container Properties */
+/*  These 5 are properties we can actuallu use for the contianer-all these things done in the container. 
+Display flex(to start flex set up), flex-direction (row and colums), flex-wrap(wrap items)
+justify-content(horizontally) and align items(vertically) */
 
 .container {
   background-color: rgb(250, 250, 250);

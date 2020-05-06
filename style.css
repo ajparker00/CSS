@@ -51,12 +51,16 @@ body {
 }
 
 /* Flexbox */
+/* Flext direction is row, row reverse, column, column reverse
+    Flex Wrap is wrap or no wrap.  no wrap is default of the flex display */
 
 .container {
   background-color: rgb(250, 250, 250);
   margin: 10px;
 
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .container-item {

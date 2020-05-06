@@ -52,10 +52,15 @@ body {
 
 /* Flexbox */
 
-/* flex item orders */
+/* Flex Items Shrink, Grow and Basis these are completely responsible for the responsive power of Flexbox.
+What really makes flexbox what it is today and why it's used so commonly over floats and dispay types. 
+Use these item properties to define size of the website on different devices so websites looks good*/
+
 /* Item Properties is the real power of flex box basically changing how items look.  Ex would be positioning in a container. */
-/* Flex item order instead of adding this to the actual container you can add this to the items themselves.
-  Use property to change the position or order of the flex items
+
+/* Flex Basis-defines a minimum width of an flex item.  Can be any value, doesn't have to be a specific number or unit. 
+   Flex grow-every flex item is going to get the same amount of extra space unless you set the item otherwise. Good rule of thumb is set all the same
+   Flex shrink-defines the rate of shrinking relative to the rest of the items.  Flex shrink is set to 1
 */
 
 .container {
@@ -65,7 +70,6 @@ body {
 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }

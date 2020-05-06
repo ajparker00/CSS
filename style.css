@@ -52,7 +52,9 @@ body {
 
 /* Flexbox */
 
-/* Flex property-grow, shrink and basis ex: flex: 1 1 100px; is a short hand way to use flex grow, shrink and basis propery in one go. */
+/* Alinging each item individually 
+  you can align items with normal values like flex start, flex end, center
+*/
 
 .container {
   background-color: rgb(250, 250, 250);

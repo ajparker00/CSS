@@ -119,7 +119,9 @@ scale- is away to increase padding
 Rotational Properties
 rotate-rotates the element
 skew
-
+matrix- is a way to use tranform in a shorthand method
+matrix doesn't take rotation in account just skews.  
+matrix is not used much. manually transformint etx is better
 
 */
 
@@ -133,7 +135,7 @@ skew
   font-size: 20px;
   color: white;
   background: rgb(89, 150, 255);
-  transform: skewy(45deg);
+  transform: matrix(1, 0.45, 0.45, 1, 100, 50);
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;

@@ -111,8 +111,15 @@ textarea {
 /* Transition Property works alot with pseudo selectors */
 
 /* Tranformation property
+
+Physical properties
 translate-alernative way to move an element around a page 
 scale- is away to increase padding
+
+Rotational Properties
+rotate-rotates the element
+
+
 */
 
 .submit-button {
@@ -125,7 +132,7 @@ scale- is away to increase padding
   font-size: 20px;
   color: white;
   background: rgb(89, 150, 255);
-  transform: scale(2.5);
+  transform: rotate(-45deg);
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;

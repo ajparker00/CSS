@@ -108,7 +108,7 @@ textarea {
   margin: 10px;
 }
 
-/* Transition Property */
+/* Transition Property works alot with pseudo selectors */
 
 .submit-button {
   margin: 20px 10px;
@@ -120,9 +120,9 @@ textarea {
   font-size: 20px;
   color: white;
   background: rgb(89, 150, 255);
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
 }
 
 .submit-button:hover {

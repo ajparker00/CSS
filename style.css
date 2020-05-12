@@ -132,13 +132,16 @@ textarea {
 
 /* Animation */
 
+/* Added animataion and properties */
+
 #about-me {
   animation-name: red-to-black;
+  animation-duration: 4s;
 }
 
 /* Animation Design */
 
-@keyframes ret-to-black {
+@keyframes red-to-black {
   0% {
     background: red;
     transform: translate(0px, 0px);

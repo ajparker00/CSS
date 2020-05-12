@@ -108,24 +108,6 @@ textarea {
   margin: 10px;
 }
 
-/* Transition Property works alot with pseudo selectors but can use on
-pretty much all elements. Which is the same for Transformation*/
-
-/* Tranformation property
-
-Physical properties
-translate-alernative way to move an element around a page 
-scale- is away to increase padding
-
-Rotational Properties
-rotate-rotates the element
-skew
-matrix- is a way to use tranform in a shorthand method
-matrix doesn't take rotation in account just skews.  
-matrix is not used much. manually transformint etx is better
-
-*/
-
 .submit-button {
   margin: 20px 10px;
   padding: 10px 15px;
@@ -146,4 +128,23 @@ matrix is not used much. manually transformint etx is better
 .submit-button:hover {
   background: rgb(147, 187, 255);
   padding: 20px 30px;
+}
+
+/* Animation */
+
+/* Animation Design */
+
+@keyframes ret-to-black {
+  0% {
+    background: red;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    background: yellow;
+    transform: translate(10px, 10px);
+  }
+  100% {
+    background: black;
+    transform: translate(20px, 20px);
+  }
 }

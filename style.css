@@ -110,6 +110,8 @@ textarea {
 
 /* Transition Property works alot with pseudo selectors */
 
+/* Tranformation property- alernative way to move an element around a page */
+
 .submit-button {
   margin: 20px 10px;
   padding: 10px 15px;
@@ -129,4 +131,5 @@ textarea {
 .submit-button:hover {
   background: rgb(147, 187, 255);
   padding: 20px 30px;
+  transform: translate(50px, 30px);
 }

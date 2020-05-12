@@ -134,13 +134,17 @@ textarea {
 
 /* Added animataion and properties */
 
+/* writing animation short hand */
+
 #about-me {
-  animation-name: red-to-black;
+  /* animation-name: red-to-black;
   animation-duration: 4s;
   animation-timing-function: linear;
   animation-delay: 2s;
   animation-iteration-count: 2;
-  animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; */
+
+  animation: red-to-black 4s linear 0s 2 alternate-reverse;
 }
 
 /* Animation Design */

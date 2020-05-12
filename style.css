@@ -132,6 +132,10 @@ textarea {
 
 /* Animation */
 
+#about-me {
+  animation-name: red-to-black;
+}
+
 /* Animation Design */
 
 @keyframes ret-to-black {

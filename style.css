@@ -108,7 +108,8 @@ textarea {
   margin: 10px;
 }
 
-/* Transition Property works alot with pseudo selectors */
+/* Transition Property works alot with pseudo selectors but can use on
+pretty much all elements. Which is the same for Transformation*/
 
 /* Tranformation property
 
